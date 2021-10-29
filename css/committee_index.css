@@ -1,0 +1,32 @@
+.dv_committee_events{
+    position: fixed;
+    top: 150px;
+    left: 320px;
+    height: auto;
+    width: 1140px;
+   /* border: 2px solid black; */
+}
+.table_committee_events_info{
+    position: absolute;
+    /* background-color: dodgerblue; */
+    margin-top: 40px;
+    margin-left: 0px;
+    height: auto;
+    width: 800px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* border: 1px solid black; */
+}
+th, td {
+   /* width: 100%; */
+   border: 1px solid black;
+}
+.txt_committee_name{
+  text-decoration: underline;
+  position: fixed;
+  margin-top: 130px;
+  margin-left: 270px;
+  color: #000000;
+}

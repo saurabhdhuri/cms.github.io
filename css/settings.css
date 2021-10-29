@@ -1,0 +1,123 @@
+.main_body{
+  margin-left: 25%;
+  top: 25%;
+  position: relative;
+  /* font-family: sans-serif; */
+}
+/* .dv_personal_info form{
+  position: relative;
+} */
+.dv_settings_fields{
+  padding: 22px 0px 15px 22px;
+  /* border: 1px solid black; */
+}
+.dv_settings_fields b{
+  font-size: 15px;
+  /* color: ; */
+  /* font-family: cursive; */
+}
+.edit_input_field{
+  height: 35px;
+  width: 350px;
+  position: absolute;
+  left: 220px;
+  border-radius: 4px;
+  margin-top: -10px;
+  /* border: 1px solid black; */
+  /* margin-bottom: 25px; */
+  /* padding: 12px 10px 15px 2px; */
+}
+#dv_event_description textarea{
+  height: 195px;
+  width: 350px;
+  position: relative;
+  left: 60px;
+  border-radius: 4px;
+  margin-top: -10px;
+
+}
+.dv_settings_btns{
+  height: 40px;
+  width: 580px;
+  left: 110px;
+  position: absolute;
+  margin-top: 30px;
+  /* border: 1px solid Black; */
+}
+.dv_settings_btns input{
+  height: 30px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: #bfbfbf;
+  /* padding-left: 10px */
+  margin-left: 40px
+}
+.dv_settings_btns input:hover{
+  cursor: pointer;
+  background: #004d99;
+  color: white;
+}
+#checkbox {
+  margin-left: 502px;
+}
+#tables_event_info{
+    position: relative;
+    background-color: dodgerblue;
+    margin-top: 40px;
+    margin-left: 0px;
+    height: auto;
+    width: 600px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+th{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+td{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+}
+#dv_add_new_event_dialog_box,#dv_delete_event_dialog_box,#dv_edit_event_dialog_box{
+    margin-top: 90px;
+    margin-left: 50px;
+    position: relative;
+    height: auto;
+    width: 600px;
+    display: none;
+    background-color: white;
+    border: 5px solid dodgerblue;
+    border-radius: 20px;
+}
+#tables_member_info{
+    position: relative;
+    background-color: dodgerblue;
+    margin-top: 40px;
+    margin-left: 0px;
+    height: auto;
+    width: 600px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#dv_add_new_member_dialog_box,#dv_delete_member_dialog_box,#dv_edit_member_dialog_box{
+    margin-top: 90px;
+    margin-left: 50px;
+    position: relative;
+    height: auto;
+    width: 600px;
+    display: none;
+    background-color: white;
+    border: 5px solid dodgerblue;
+    border-radius: 20px;
+}
